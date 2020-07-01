@@ -1,0 +1,15 @@
+.dark-mode-toggle {
+    border: 2px solid #fff;
+    padding: 4px;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    -webkit-box-shadow: -1px 9px 21px -9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 9px 21px -9px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 9px 21px -9px rgba(0, 0, 0, 0.75);
+}

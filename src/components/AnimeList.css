@@ -1,0 +1,55 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-gap: 20px;
+    padding: 10px 70px;
+}
+
+.card-body {
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+img {
+    width: 100%;
+    height: 300px;
+}
+
+.mal-btn-cont {
+    margin: 40px 0 10px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mal-btn {
+    width: 100%;
+    /* height: 20px; */
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px 12px;
+    border-radius: 5px;
+    margin: 40px 0 10px 0;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    transition: all 0.5s ease;
+    border: 2px solid #fff;
+}
+
+.mal-btn:hover {
+    opacity: 0.9;
+}
+
+@media screen and (max-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card-body {
+        padding: 30px;
+    }
+}
